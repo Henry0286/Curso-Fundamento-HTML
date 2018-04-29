@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html>
+
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,user-scalable=no">
+      <title>Registro en nuestra tienda</title>
+  </head>
+
+<body>
+   <form name="formContacto" autocomplete="on">
+     <fieldset>
+
+     <h1>Registro en nuestra Tienda</h1>
+
+      <p> <label for="NombreUsiario">Nombre de Usuario</label><br/>
+       <input type="text" name="NombreUsuario" id="NombreUsuario" placeholder="Ej: Henry" required></p>
+
+      <p><label for="email">Email</label><br/>
+       <input type="email" id="email" name="email" placeholder="Ej: henry@gmail.com" required></p>
+
+
+     <p>  <label for="edad">Edad</label><br/>
+       <input type="number" id="edad" name="edad" placeholder="Ej: 37" required></p>
+
+
+       <label for="Genero">Género</label><br/>
+<b>Masculino</b><input type="radio" name="Genero"><br/>
+<b>Femenino</b><input type="radio" name="Genero"><br/>
+
+
+      <p> <label for="RecomendadoPor">Recomendado por:</label><br/>
+     <select>
+       <option>Google</option>
+       <option>Amigos</option>
+       <option>Redes Sociales</option>
+     </select></p>
+
+      <p> <label for="Comentarios">Comentarios</label>
+<textarea id="Comentarios" name="name" rows="8" cols="40"></textarea></p>
+
+<label for="TerminosCondiciones">Acepto Términos y Condiciones</label><br/>
+<input type="checkbox" id="TerminosCondiciones" required><br/>
+
+<p><input type="button" value="Registrar"></p>
+
+     </fieldset>
+   </form>
+</body>
+
+</html>
